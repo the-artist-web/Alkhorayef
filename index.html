@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="icon" href="https://www.alkhorayef.com/wp-content/uploads/2023/12/image-110.png" />
+        <!-- meta tags -->
+        <title>Alkhorayef</title>
+        <meta name="title" content="Alkhorayef" />
+        <meta name="description" content="Explore the innovative solutions and diverse industries of Alkhorayef Group Of Companies in KSA. Discover excellence in business leadership." />
+        <meta name="keywords" content="HTML, CSS, JS, BOOTSTRAP, PHP, LARAVEL, MY_SQL" />
+        <meta name="auther" content="The Artist Web" />
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        rel="stylesheet" />
+        <!-- custom aos link -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <!-- custom bootstrap link -->
+        <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap.min.css" />
+        <!-- custom utility link -->
+        <link rel="stylesheet" href="./src/assets/utility/extended-utility-classes.min.css" />
+        <!-- custom css link -->
+        <link rel="stylesheet" href="./src/assets/css/styles.css" />
+        <link rel="stylesheet" href="./src/assets/css/responsive.css" />
+        <link rel="stylesheet" href="./src/assets/css/styles-rtl.css" />
+        <link rel="stylesheet" href="./src/assets/css/responsive-rtl.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header position-fixed top-0 left-0 right-0 z-3 d-flex align-items-center w-100" data-header>
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between gap-2 w-100">
+                    <a href="./index.html" class="logo">
+                        <img 
+                            src="https://www.alkhorayef.com/wp-content/uploads/2023/11/image-110.svg" 
+                            alt="img logo" 
+                            loading="lazy"
+                            class="img-logo img-cover" 
+                        />
+                    </a>
+
+                    <ul class="navbar d-none d-lg-flex align-items-center gap-4">
+                        <li>
+                            <a href="./index.html" class="nav-link active text-bg-color">
+                                home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link text-bg-color">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link text-bg-color">
+                                Our Solutions
+                            </a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="nav-link text-bg-color">
+                                Companies
+                                <span class="d-flex align-items-center justify-content-center">
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="15"  height="15"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-caret-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z" /></svg>
+                                </span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="drop-link">Itqan Carpet</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#" class="drop-link">Itqan Contracting</a>
+                                </li>
+                                
+                                <!-- <li>
+                                    <a href="#" class="drop-link"></a>
+                                </li> -->
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link text-bg-color">
+                                Our News
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link text-bg-color">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="#" class="header-link active text-bg-color label-small">English</a>
+                        
+                        <a href="#" class="header-link text-bg-color label-small">العربية</a>
+
+                        <button type="button" class="d-block text-bg-color d-lg-none hover" data-bs-target="#aside" data-bs-toggle="offcanvas">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="19" viewBox="0 0 33 19" fill="none"><path d="M0.405273 1.5H19.9623" stroke="white" stroke-width="2"></path><path d="M0.405273 9.5H33.0003" stroke="white" stroke-width="2"></path><path d="M13.4434 17.5H33.0004" stroke="white" stroke-width="2"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ASIDE -->
+        <aside class="aside pt-80 px-20 pb-20 bg-second-bg-color text-bg-color offcanvas offcanvas-start w-100 overflow-scroll scrollbar-none" id="aside">
+            <div class="header position-absolute h-80px d-flex align-items-center" style="top: 0; right: 16px;">
+                <button type="button" class="hover text-bg-color" data-bs-dismiss="offcanvas">
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="25"  height="25"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="3"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+                </button>
+            </div>
+
+            <div class="d-grid gap-5">
+                <ul class="d-grid gap-4">
+                    <li>
+                        <a href="./index.html" class="aside-link active text-bg-color title-small">
+                            home
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="aside-link text-bg-color title-small">
+                            About Us
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="aside-link px-0 text-bg-color title-small" data-bs-toggle="collapse" data-bs-target="#aside-collapse">
+                            Companies
+                            <span class="d-flex align-items-center justify-content-center">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="25"  height="25"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-caret-down"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z" /></svg>
+                            </span>
+                        </a>
+    
+                        <ul class="collapse" id="aside-collapse">
+                            <li>
+                                <a href="#" class="aside-link mb-10 text-bg-color label-large">Itqan Carpet Company</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="aside-link mb-10 text-bg-color label-large">Itqan Contracting Company</a>
+                            </li>
+                            
+                            <!-- <li>
+                                <a href="#" class="drop-link text-bg-color title-small"></a>
+                            </li> -->
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#" class="aside-link text-bg-color title-small">
+                            Our Solutions
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="aside-link text-bg-color title-small">
+                            Our News
+                        </a>
+                    </li>
+    
+                    <li>
+                        <a href="#" class="aside-link text-bg-color title-small">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+
+                <a href="./index.html" class="logo">
+                    <img 
+                        src="https://www.alkhorayef.com/wp-content/uploads/2023/11/image-110.svg" 
+                        alt="img logo" 
+                        loading="lazy"
+                        class="img-logo img-cover" 
+                    />
+                </a>
+
+                <ul class="d-flex flex-wrap align-items-center gap-4">
+                    <li>
+                        <a href="#" class="social-link text-bg-color">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="28"  height="28"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-brand-twitter"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14.058 3.41c-1.807 .767 -2.995 2.453 -3.056 4.38l-.002 .182l-.243 -.023c-2.392 -.269 -4.498 -1.512 -5.944 -3.531a1 1 0 0 0 -1.685 .092l-.097 .186l-.049 .099c-.719 1.485 -1.19 3.29 -1.017 5.203l.03 .273c.283 2.263 1.5 4.215 3.779 5.679l.173 .107l-.081 .043c-1.315 .663 -2.518 .952 -3.827 .9c-1.056 -.04 -1.446 1.372 -.518 1.878c3.598 1.961 7.461 2.566 10.792 1.6c4.06 -1.18 7.152 -4.223 8.335 -8.433l.127 -.495c.238 -.993 .372 -2.006 .401 -3.024l.003 -.332l.393 -.779l.44 -.862l.214 -.434l.118 -.247c.265 -.565 .456 -1.033 .574 -1.43l.014 -.056l.008 -.018c.22 -.593 -.166 -1.358 -.941 -1.358l-.122 .007a.997 .997 0 0 0 -.231 .057l-.086 .038a7.46 7.46 0 0 1 -.88 .36l-.356 .115l-.271 .08l-.772 .214c-1.336 -1.118 -3.144 -1.254 -5.012 -.554l-.211 .084z" /></svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link text-bg-color">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="28"  height="28"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link text-bg-color">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="28"  height="28"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-brand-youtube"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 3a5 5 0 0 1 5 5v8a5 5 0 0 1 -5 5h-12a5 5 0 0 1 -5 -5v-8a5 5 0 0 1 5 -5zm-9 6v6a1 1 0 0 0 1.514 .857l5 -3a1 1 0 0 0 0 -1.714l-5 -3a1 1 0 0 0 -1.514 .857z" /></svg>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link text-bg-color">
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="28"  height="28"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-brand-facebook"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" /></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="main">
+            <article>
+                <!-- HOME -->
+                <div class="home">
+                    <video class="w-100 position-absolute top-0 left-0 right-0 bottom-0" style="object-fit: cover; height: 100dvh; z-index: -1;" autoplay muted loop playsinline poster="https://www.alkhorayef.com/wp-content/uploads/2023/12/Group-15690.webp">
+                        <source src="./src/assets/videos/244839_medium.mp4" type="video/mp4" />
+                        <source src="movie.ogg" type="video/ogg" />
+                        Your browser does not support the video tag.
+                    </video>
+
+                    <div class="position-absolute top-0 left-0 right-0 bottom-0 w-100 opacity-75 bg-second-bg-color" style="height: 100vh;"></div>
+
+                    <div class="container d-flex align-items-center justify-content-center w-100" style="height: 100vh;">
+                        <div class="d-grid gap-3 mx-auto max-w-600px position-relative z-3 text-center">
+                            <h3 class="text-main-color title-medium">Your partners in success</h3>
+                            <h3 class="text-main-color title-medium">Success through Partnership</h3>
+                            <h1 class="text-bg-color mb-20 display-large">Saudi Global Company</h1>
+                            <a href="#" class="btn btn-white mx-auto label-medium">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT -->
+                <section class="about">
+                    <img 
+                        src="./src/assets/image/Group-898.png" 
+                        alt="bg about" 
+                        loading="lazy"
+                        class="d-none d-lg-block position-absolute top-0 left-0 right-0 bottom-0 img-cover" 
+                        style="z-index: -1;"
+                    />
+
+                    <img 
+                        src="https://www.alkhorayef.com/wp-content/uploads/2023/12/1BG22-2.webp" 
+                        alt="img about" 
+                        loading="lazy"
+                        class="d-none d-lg-block position-absolute top-0 left-0 right-0 bottom-0 img-cover" 
+                        style="z-index: -2;"
+                    />
+
+                    <div class="container position-relative z-2">
+                        <div class="about-content d-flex flex-column align-items-start justify-content-center gap-3">
+                            <img 
+                                src="https://www.alkhorayef.com/wp-content/uploads/2023/12/1BG22-2.webp" 
+                                alt="img about" 
+                                loading="lazy"
+                                class="max-h-200px d-lg-none img-cover"
+                                data-aos="fade-up"
+                            />
+
+                            <div class="d-flex align-items-start gap-5">
+                                <p class="d-none d-lg-block line-y text-second-color text-uppercase mt-10 label-large">About Us</p>
+                                <div>
+                                    <p class="p-top text-uppercase mb-5 text-second-color label-medium" data-aos="fade-up">About Us</p>
+                                    <h2 class="d-lg-none mb-5 text-second-color text-uppercase title-small" data-aos="fade-up">OUr STORY</h2>
+                                    <p class="text-third-color max-w-680px label-small" data-aos="fade-up">Welcome to Alkhorayef Group, where goals can be accomplished, and excellence knows no bounds. The Group was founded in 1957 by the visionary leader, Shaykh Abdullah bin Ibrahim Alkhorayef, may Allah have mercy on him. The Group’s journey reflects a rich heritage of progress, commitment, collaboration, and sustainability.1962 marked a turning point in the Group’s journey; leadership was passed down from the founder to the first generation that undertook a critical mission to support the essentials of life: energy, water, and food.Our products are widely known for their high quality and the exceptional after-sale services that are recognized by our customers for efficiency. Furthermore, we have an international presence in 40 countries across 6 continents. Our team of more than 8000 professional employees is our globally influential pivot. <br><br>Moreover, Alkhorayef Group features strategic partnerships; it cooperates with several famous international brands such as Volvo Penta, John Deere, Yamaha, Zodiac, and solar power leaders. This highlights the Group’s ability to foster influential relationships based on innovation, achievement, and creativity.Over the years, the Group has become the guiding light that directs the way towards growth, progress, and prosperity. It has expanded the scope of its activities in diverse sectors, along with its strategic investments in real estate properties, heavy and light industries, construction, operations, and maintenance, which affirm its commitment to creating a better future.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <!-- custom bootstrap link -->
+        <script src="./src/assets/bootstrap/bootstrap.bundle.min.js"></script>
+        <!-- custom js link -->
+        <script src="./src/scripts.js"></script>
+        <!-- custom aos link -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 900,
+                once: true,
+                offset: 200
+            });
+        </script>
+    </body>
+</html>

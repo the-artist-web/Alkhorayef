@@ -1,0 +1,20 @@
+/**
+ * FIT SIZE: 768PX
+ */
+ @media screen and (min-width: 768px) {}
+
+/**
+ * FIT SIZE: 992px
+ */
+@media screen and (min-width: 992px) {
+    /* ABOUT */
+    html[dir="rtl"] .about .about-content { 
+        padding-left: 0; 
+        padding-right: 10%; 
+    }
+}
+
+/**
+ * FIT SIZE: 1320px
+ */
+@media screen and (min-width: 1440px) {}

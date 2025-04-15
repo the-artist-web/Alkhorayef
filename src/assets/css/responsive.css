@@ -1,0 +1,70 @@
+/**
+ * FIT SIZE: 768PX
+ */
+ @media screen and (min-width: 768px) {
+    /* STYLE GUIDE */
+    :root {
+        --fs-display-large: 4rem;
+        --fs-display-medium: 3rem;
+        --fs-display-small: 2.6rem;
+        --fs-headline-small: 2.4rem;
+    }
+
+    /* COMPONENTS */
+
+    /**
+     * BUTTONS
+     */
+    .btn { padding: 20px 45px; }
+}
+
+/**
+ * FIT SIZE: 992px
+ */
+@media screen and (min-width: 992px) {
+    /* COMPONENTS */
+
+    /**
+     * LOGO
+     */
+    .logo .img-logo {
+        min-width: 246px;
+        max-width: 246px;
+        min-height: 78px;
+        max-height: 78px;
+    }
+
+    /* HEADER */
+    .header { height: 98px; }
+    
+    .header .container { 
+        padding-inline: 40px !important;
+        max-width: 100% !important; 
+    }
+
+    /* ABOUT */
+    .about { padding-block: 200px 50px; }
+
+    .about .p-top { 
+        margin-bottom: 30px; 
+        font-size: var(--fs-display-small) !important;
+        font-weight: var(--weight-800) !important;
+        line-height: var(--fs-display-small);
+        letter-spacing: 2px;
+    }
+
+    .about .about-content { padding-left: 8%; }
+}
+
+/**
+ * FIT SIZE: 1320px
+ */
+@media screen and (min-width: 1440px) {
+    /* STYLE GUIDE */
+    :root {
+        --fs-display-large: 5rem;
+        --fs-display-medium: 3.2rem;
+        --fs-display-small: 2.8rem;
+        --fs-headline-small: 2.6rem;
+    }
+}
