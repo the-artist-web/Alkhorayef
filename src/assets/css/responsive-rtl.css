@@ -12,6 +12,29 @@
         padding-left: 0; 
         padding-right: 10%; 
     }
+
+    /* OUR SOLUTIONS */
+    html[dir="rtl"] .our-solutions .title-out-solutions {
+        left: auto;    
+        right: 46%;
+    }
+
+    html[dir="rtl"] .our-solutions .arrow-lg {
+        left: auto;     
+        right: 42.5%;
+    }
+
+    /* PROUDLY */
+    html[dir="rtl"] .proudly .img-proudly { 
+        margin-left: 0; 
+        margin-right: auto; 
+    }
+
+    /* SECTION TWO DETAILS */
+    html[dir="rtl"] .section-two-details .bg-image {
+        right: auto;
+        left: auto;
+    }
 }
 
 /**
