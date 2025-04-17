@@ -10,7 +10,7 @@
     /* ABOUT */
     html[dir="rtl"] .about .about-content { 
         padding-left: 0; 
-        padding-right: 10%; 
+        padding-right: 16%; 
     }
 
     /* OUR SOLUTIONS */
@@ -30,11 +30,19 @@
         margin-right: auto; 
     }
 
+    .proudly .title-proudly {
+        left: auto; 
+        right: 0; 
+    }
+
     /* SECTION TWO DETAILS */
     html[dir="rtl"] .section-two-details .bg-image {
         right: auto;
         left: auto;
     }
+
+    /* NEWS */
+    html[dir="rtl"] .news .title { text-align: start !important; }
 }
 
 /**

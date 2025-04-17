@@ -113,6 +113,15 @@
         width: 50%;
         height: 100%;
     }
+
+    /* COMPANIES */
+    .companies .col-one {
+        padding: 100px 30px 100px 100px;
+        width: 47% !important;
+        height: 300px;
+    }
+
+    .companies .col-two { height: 300px; }
 }
 
 /**
